@@ -16,6 +16,11 @@ They help me viasualize more clearly on the examples of reachability
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result is a branch with the commits of both branches; we represent it in that way to show where the merge was done from.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pros: Easily make big changes that are totally new and won't present a problem.
+Cons: Merge conflicts could lead to a very weird chunk of code which might not even compile
+
+Doing manual merges is useful only when a merge conflict situation occurs
